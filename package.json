@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Goodluckhf/react-book-app/issues"
   },
-  "homepage": "https://github.com/Goodluckhf/react-book-app#readme"
+  "homepage": "https://github.com/Goodluckhf/react-book-app#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
