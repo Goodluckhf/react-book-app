@@ -1,5 +1,11 @@
 ;"use strict";
 
-var Book = function() {
+export default class Book {
+    constructor(name) {
+        this.name = name || "";
+    }
 
-};
+    getName() {
+        return this.name;
+    }
+}

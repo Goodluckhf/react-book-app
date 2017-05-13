@@ -1,6 +1,10 @@
-;"use strict";
+import Book from './Book.js';
 
-var BookManager = (new function() {
-   var self = this;
+export default (new function() {
+    const self = this;
+    const book = new Book("lol");
 
+    this.getBook = function() {
+        return book;
+    };
 });
